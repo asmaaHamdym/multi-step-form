@@ -36,3 +36,112 @@
     transform: rotate(360deg);
   }
 }
+
+
+.app {
+  width: 1048px;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  padding: 40px;
+  margin-top: 170;
+}
+
+.onboarding_left_image  {
+  width: 100%;
+  height: 100%;
+  max-width: 585px;
+  height: 627px;
+}
+
+.onboarding_left_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.onboarding_right {
+  padding-left: 40px;
+
+}
+
+h2 {
+  color: #2e4167;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+p,label {
+  color: #683c57;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.first-step-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+
+}
+
+.first-step-buttons .btn {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+
+}
+
+.btn {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  border: solid 1px wheat;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-color: #2e4167;
+}
+
+.btn-primary {
+  background-color: rgb(93, 40, 93);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #d892bd;
+}
+.btn-fb {
+  background-color: #2e4167;
+}
+.btn-fb:hover {
+  background-color: #89a4da;
+}
+
+.btn-tw {
+  background-color: rgb(19, 172, 189);
+}
+.btn-tw:hover {
+  background-color: #9accdb;
+}
+
+.first-step {
+  margin-top: 40px;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  height: 40px;
+  width: 200px;
+}
+
+.form-stepper__action {
+
+}
